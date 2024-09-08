@@ -31,9 +31,12 @@ ________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________
 
 
-  <img src="https://github.com/user-attachments/assets/d48781f7-c8fc-44d2-bec0-7d687ae01a95                                                                                                                                                                                   
-                                                              l" height="80%" width="80%" />  
-  <img src="" height="80%" width="80%" />
-    <img src="" height="80%" width="80%" />
-      <img src="" height="80%" width="80%" />
-        <img src="" height="80%" width="80%" />
+  <img src="https://github.com/user-attachments/assets/a0347a09-8680-4a1d-bf39-23565695e3a4" height="80%" width="80%" />
+  <p>iwconfig is a Linux command used to display and modify the settings of wireless network interfaces, like changing the Wi-Fi network (SSID), frequency, or encryption settings.</p>
+    <img src="https://github.com/user-attachments/assets/0cadd16f-98fd-40eb-b428-33cec0f71577" height="80%" width="80%" />
+    <p> ifconfig wlan0 down command disables the wireless network interface (wlan0), immediately disconnecting it from any Wi-Fi network</p>
+    <p>airmon-ng check kill stops any background processes (like network managers) that could interfere with putting your wireless network interface into monitor mode, which is used for tasks like packet capturing and wireless network analysis.</p>
+      <p>wpa_supplicant is responsible for managing Wi-Fi connections. It handles authentication and ensures your device stays connected to the network. By killing wpa_supplicant, your device's ability to manage and connect to Wi-Fi networks is temporarily disabled, allowing the interface to be used in monitor mode for activities like network scanning or packet capturing.</p>
+      <img src="https://github.com/user-attachments/assets/2b0e6cdd-9f4a-4658-aeba-b5be8dcb06f2" height="80%" width="80%" />
+      <p>iwconfig wlan0 mode monitor puts the wireless interface (wlan0) into monitor mode, which allows it to capture all wireless traffic, not just traffic directed to or from my device. </p>
+      
